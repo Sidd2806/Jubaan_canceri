@@ -56,33 +56,6 @@ Key responsive patterns used:
 - Scalable spacing (`py-12 md:py-20`)
 
 ---
-
-## 📂 Project Structure
-
-
-
-src/
-├── components/
-│ ├── common/
-│ │ └── Navbar.jsx
-│ ├── heropage/
-│ │ └── Heropage.jsx
-│ ├── products/
-│ │ └── Products.jsx
-│ ├── Testimonial/
-│ │ └── Testimonial.jsx
-│ ├── About/
-│ │ └── About.jsx
-│ ├── ContactsForm/
-│ │ └── ContactsForm.jsx
-│ └── Footer/
-│ └── Footer.jsx
-├── App.jsx
-└── main.jsx
-
-
----
-
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
