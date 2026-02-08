@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <nav className="relative w-full h-16 flex items-center justify-between">
 
-      {/* Logo */}
+
       <h1 className="text-2xl md:text-4xl font-semibold ml-4 md:ml-20">
         <span className="text-[#E15315]">Bimal</span>-ultra
       </h1>
 
-      {/* Hamburger (mobile only) */}
+  
       <button
         className="md:hidden text-3xl mr-4"
         onClick={() => setIsOpen(!isOpen)}
@@ -19,7 +19,7 @@ const Navbar = () => {
         ☰
       </button>
 
-      {/* Desktop Menu */}
+  
       <ul className="hidden md:flex items-center gap-10 mr-4 md:mr-20 text-xl">
         <li>
           <a className="hover:text-[#E15315]" href="#top">Home</a>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Mobile Menu */}
+   
       {isOpen && (
         <div className="md:hidden absolute top-16 right-4 w-56 bg-black text-white rounded-xl shadow-lg p-5">
           <ul className="flex flex-col gap-4 text-lg">

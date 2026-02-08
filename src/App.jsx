@@ -11,13 +11,11 @@ const App = () => {
   return (
     <div className="w-full min-h-screen flex flex-col overflow-x-hidden">
       
-      {/* HERO (owns yellow background completely) */}
       <div className="bg-linear-to-b from-[#F0BB1D] to-[#EC4225]">
         <Navbar />
         <Heropage />
       </div>
 
-      {/* WHITE CONTENT (starts AFTER hero) */}
       <div className="bg-white rounded-t-2xl -mt-6 overflow-hidden">
         <section id="products" className="scroll-mt-20">
           <Products />

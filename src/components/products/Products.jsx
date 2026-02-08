@@ -36,8 +36,6 @@ const Products = () => {
           “kya hi farak padta hai” energy.
         </p>
       </div>
-
-      {/* CARDS CREATION */}
       {data.map((item,index) => {
         return (
           <div key={index} className="w-full flex flex-col md:flex-row gap-5 md:gap-10  p-4 md:p-6  max-w-4xl bg-[#FCECD9] rounded-4xl my-5">
